@@ -5,15 +5,20 @@
   background-size: cover;
 }
 
-.vertical-center {
-  min-height: 100vh;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
+.title {
+  text-align:center;
+  color:white;
 }
 
 .box {
   border: 6px white solid;
   margin: 0 auto;
   width: 50%;
+}
+
+.vertical-center {
+  min-height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
