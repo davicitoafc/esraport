@@ -1,0 +1,10 @@
+/* Header style */
+
+.headerPic {
+  background: url('images/esra_background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.vertical-center {
+  min-height: 100vh;
+}
