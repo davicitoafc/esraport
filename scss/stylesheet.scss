@@ -3,8 +3,13 @@
 @font-face { font-family: Adam; src: url('fonts/Adam.otf'); }
 
 $mainFont: Adam, sans-serif;
+$fontColor: white;
 
 /* Header style */
+
+.header {
+  padding-bottom: 70px;
+}
 
 .headerPic {
   background: url('images/esra_background.jpg') no-repeat center center fixed;
@@ -13,16 +18,15 @@ $mainFont: Adam, sans-serif;
 
 .title {
   text-align: center;
-  color: white;
+  color: $fontColor;
   font-size: 4em;
 }
 
 .box {
-  border: 6px white solid;
-  margin: 0 auto;
+  border: 9px white solid;  margin: 0 auto;
   width: 50%;
   font-family: $mainFont;
-  color: white;
+  color: $fontColor;
 }
 
 .vertical-center {
@@ -46,7 +50,7 @@ $mainFont: Adam, sans-serif;
 }
 
 .underline {
- border-bottom: 1px solid white;
- width: 450px;
- margin: 0 auto;
+  border-bottom: 4px solid white;
+  width: 450px;
+  margin: 0px auto 30px auto;
 }

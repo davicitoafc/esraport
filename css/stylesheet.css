@@ -3,6 +3,9 @@
   font-family: Adam;
   src: url("fonts/Adam.otf"); }
 /* Header style */
+.header {
+  padding-bottom: 70px; }
+
 .headerPic {
   background: url("images/esra_background.jpg") no-repeat center center fixed;
   background-size: cover; }
@@ -13,7 +16,7 @@
   font-size: 4em; }
 
 .box {
-  border: 6px white solid;
+  border: 9px white solid;
   margin: 0 auto;
   width: 50%;
   font-family: Adam, sans-serif;
@@ -36,8 +39,8 @@
   padding-left: 60px; }
 
 .underline {
-  border-bottom: 1px solid white;
+  border-bottom: 4px solid white;
   width: 450px;
-  margin: 0 auto; }
+  margin: 0px auto 30px auto; }
 
 /*# sourceMappingURL=stylesheet.css.map */
