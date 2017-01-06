@@ -1,3 +1,7 @@
+/* Font */
+
+@font-face { font-family: Adam; src: url('fonts/Adam.otf'); }
+
 /* Header style */
 
 .headerPic {
@@ -6,8 +10,9 @@
 }
 
 .title {
-  text-align:center;
-  color:white;
+  text-align: center;
+  color: white;
+  font-family: Adam, sans-serif;
 }
 
 .box {
