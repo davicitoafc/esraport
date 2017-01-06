@@ -2,6 +2,8 @@
 
 @font-face { font-family: Adam; src: url('fonts/Adam.otf'); }
 
+$mainFont: Adam, sans-serif;
+
 /* Header style */
 
 .headerPic {
@@ -12,13 +14,15 @@
 .title {
   text-align: center;
   color: white;
-  font-family: Adam, sans-serif;
+  font-size: 4em;
 }
 
 .box {
   border: 6px white solid;
   margin: 0 auto;
   width: 50%;
+  font-family: $mainFont;
+  color: white;
 }
 
 .vertical-center {
@@ -26,4 +30,9 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
+}
+
+.subTitle {
+  font-size: 2em;
+  text-align: center;
 }
