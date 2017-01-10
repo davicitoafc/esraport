@@ -46,7 +46,11 @@
 .links {
   font-size: 2em;
   color: white;
-  font-family: Adam, sans-serif; }
+  font-family: Adam, sans-serif;
+  text-align: center; }
+
+.spanLinks {
+  padding-left: 60px; }
 
 /* Main body */
 
