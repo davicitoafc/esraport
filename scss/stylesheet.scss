@@ -67,3 +67,40 @@ $fontColor: white;
 }
 
 /* Main body */
+
+.portfolio {
+  background-color: black;
+  font-family: $mainFont;
+  color: white;
+  font-size: 4em;
+}
+
+/* Media Query */
+
+@media (max-width: 700px) {
+
+  /* Header Styles */
+
+  .header {
+    width: 100%;
+  }
+  .box {
+    width: 100%;
+  }
+
+  .title {
+      font-size: 3em;
+  }
+
+  .spanTitle {
+    padding-left: 0;
+  }
+
+  .underline {
+    width: 300px;
+  }
+
+  .spanLinks {
+    padding-left: 0px;
+  }
+}

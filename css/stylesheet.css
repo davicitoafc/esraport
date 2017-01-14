@@ -4,9 +4,7 @@
   src: url("fonts/Adam.otf"); }
 /* Header style */
 .header {
-  padding-bottom: 70px;
-  width: 100%;
- }
+  padding-bottom: 70px; }
 
 .headerPic {
   background: url("images/esra_background.jpg") no-repeat center center fixed;
@@ -55,31 +53,31 @@
   padding-left: 60px; }
 
 /* Main body */
-
+.portfolio {
+  background-color: black;
+  font-family: Adam, sans-serif;
+  color: white;
+  font-size: 4em; }
 
 /* Media Query */
-
 @media (max-width: 700px) {
-
   /* Header Styles */
-
   .header {
-    width: 100%;
-  }
+    width: 100%; }
+
   .box {
-    width: 100%;
-  }
+    width: 100%; }
 
   .title {
-      font-size: 3em;
-  }
+    font-size: 3em; }
 
   .spanTitle {
-    padding-left: 0;
-  }
+    padding-left: 0; }
 
   .underline {
-    width: 300px;
-  }
-}
+    width: 300px; }
+
+  .spanLinks {
+    padding-left: 0px; } }
+
 /*# sourceMappingURL=stylesheet.css.map */
