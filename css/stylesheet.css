@@ -4,7 +4,9 @@
   src: url("fonts/Adam.otf"); }
 /* Header style */
 .header {
-  padding-bottom: 70px; }
+  padding-bottom: 70px;
+  width: 100%;
+ }
 
 .headerPic {
   background: url("images/esra_background.jpg") no-repeat center center fixed;
@@ -54,4 +56,30 @@
 
 /* Main body */
 
+
+/* Media Query */
+
+@media (max-width: 700px) {
+
+  /* Header Styles */
+
+  .header {
+    width: 100%;
+  }
+  .box {
+    width: 100%;
+  }
+
+  .title {
+      font-size: 3em;
+  }
+
+  .spanTitle {
+    padding-left: 0;
+  }
+
+  .underline {
+    width: 300px;
+  }
+}
 /*# sourceMappingURL=stylesheet.css.map */
