@@ -68,13 +68,25 @@ $fontColor: white;
 
 /* Main body */
 
-.portfolio {
+#portfolio {
   background-color: black;
   font-family: $mainFont;
   color: white;
   font-size: 4em;
+  height: 1000px;
 }
 
+.portfolioHeader {
+  padding: 60px 0px 60px;
+  text-align: center;
+  font-size: 1em;
+}
+
+#photographyDiv {
+  height: 70px;
+  background-color: white;
+  color: black;
+}
 /* Media Query */
 
 @media (max-width: 700px) {
