@@ -2,6 +2,16 @@
 @font-face {
   font-family: Adam;
   src: url("fonts/Adam.otf"); }
+/* Navbar Style*/
+.navbar {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  border: none;
+  background: transparent;
+  transition: 1s all ease;
+  border-radius: 0px; }
+
 /* Header style */
 .header {
   padding-bottom: 70px; }
@@ -64,11 +74,6 @@
   padding: 60px 0px 60px;
   text-align: center;
   font-size: 1em; }
-
-#photographyDiv {
-  height: 70px;
-  background-color: white;
-  color: black; }
 
 /* Media Query */
 @media (max-width: 700px) {
