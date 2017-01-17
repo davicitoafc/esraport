@@ -1,13 +1,12 @@
-$(function() {
+// transition effect on navbar //
+$(window).scroll(function() {
 
- /* Navbar transition */
-  var waypoint = new Waypoint({
-    element: document.getElementById(''),
-    handler: function(direction) {
+  var nav = $('.navbar');
+  var navPosition = nav.offset();
 
-    },
-    offset: -10
-  })
-
-
+  if (navPosition.top > 10) {
+    $('.navbar').addClass('navScroll');
+  } else if (navPosition.top < 10) {
+    $('.navbar').removeClass('navScroll');
+  }
 });

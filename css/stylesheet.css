@@ -11,6 +11,13 @@
   background: transparent;
   transition: 1s all ease;
   border-radius: 0px; }
+  .navbar a {
+    color: white;
+    font-family: Adam, sans-serif; }
+
+.navScroll {
+  background-color: #000000;
+  transition: 1s all ease; }
 
 /* Header style */
 .header {
