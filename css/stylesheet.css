@@ -75,12 +75,25 @@
   font-family: Adam, sans-serif;
   color: white;
   font-size: 4em;
-  height: 1000px; }
+  height: auto; }
 
 .portfolioHeader {
   padding: 60px 0px 60px;
   text-align: center;
   font-size: 1em; }
+
+.image {
+  width: 700px;
+  height: 500px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.fix {
+  padding-top: 15px; }
+
+.resize {
+  width: 100%; }
 
 /* Media Query */
 @media (max-width: 700px) {
